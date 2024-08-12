@@ -1,0 +1,19 @@
+@media screen and (min-width:300px) and (max-width:576px) {
+   body{
+    width: 100%;
+    padding-top: 2rem;
+   }
+    .nav-bar{
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+    }
+    .nav-icon{
+        flex-direction: column;
+    }
+    .nav-menu{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}

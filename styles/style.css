@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playwrite+AU+TAS:wght@100..400&family=Playwrite+CL:wght@100..400&family=Playwrite+CU:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    border: 0;
+    padding: 0%;
+}
+body{
+    font-family: "Work Sans", sans-serif;
+}
+/* nav-bar-styles */
+.nav-bar{
+    box-shadow: 0px 4px 30px 0px rgba(208, 142, 212, 0.4);
+    background: rgb(255, 255, 255);
+    width: auto;
+    /* margin: 0% auto; */
+    padding: 2rem 4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 50px;
+    margin-right: 15px;
+}
+.nav-icon p{
+    font-size: 2rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #3C354F;
+    
+}
+.span{
+    color: rgb(230, 82, 217);
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.nav-menu a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color:#3C354F;
+}
+.Follow{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    background: rgba(11, 2, 35, 0.1) ;
+    border-radius: 6px;
+    padding:0.5rem 0.5rem;
+    margin-right: 5px;
+}
+#youtube{
+    color: red;
+    margin-right: 5px;
+}
+#tiktok{
+    background: linear-gradient(-25deg,black,rgb(16, 16, 20));
+    background-clip: text;
+    color: transparent;
+    filter: drop-shadow(3px 3px 3px rgb(113, 127, 156));
+}
