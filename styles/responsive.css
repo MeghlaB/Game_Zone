@@ -15,5 +15,40 @@
         flex-direction: column;
         gap: 20px;
     }
+    /*banner-section  */
+    .banner-section{
+        width: 100%;
+        padding-top: 1rem;
+        flex-direction: column-reverse;
     
+    }
+    .multi-image >img{
+        width: 100%;
+        padding: 0%;
+        
+       
+    }
+    .banner-section >.goat,
+    .banner-section > .multi-image{
+        width: 100%;
+    
+    }
+    .text{
+        padding: 0;
+        padding-top: 2rem;
+      
+    }
+   .text h1,
+   .text h4,
+   .text p{
+    text-align:center ;
+   }
+    .btn{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       margin-left: 30px;
+    }
+    
+
+
 }
