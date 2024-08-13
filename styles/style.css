@@ -158,14 +158,10 @@ body{
 .man-section >img{
     width: 100%;
 }
-/* .man-section{
-    background-image: url(../images/pngwing\ 4.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-} */
+
 .title-section{
     text-align: right;
+    padding-right:60px;
     padding-top: 5rem;
 }
 .title-section h3{
@@ -190,4 +186,88 @@ body{
     font-size: 18px;
     color: grey;
     padding-top: 1.2rem;
+}
+/* Online-games-section-styles */
+.online_games{
+    width: 90%;
+    margin: 0 auto;
+}
+.online-games-title{
+    text-align: center;
+    padding-top: 5rem;
+}
+.online-games-title h3{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: black;
+}
+.online-games-title span{
+    background: linear-gradient(180.00deg, rgb(249,72,178),rgb(135,88,241));
+    background-clip: text;
+    color: transparent;
+    
+}
+.online-games-title p{
+    font-size: 16px;
+    color: grey;
+}
+.video_card{
+    padding-top: 2rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    
+}
+.video_card img{
+    width: 100%;
+}
+
+ .video-card1,
+ .video-card2,
+ .video-card3{
+    position: relative;
+}
+.wacth-now{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.wacth-now span{
+    color: white;
+   
+}
+.wacth-now p{
+    color: red;
+
+} 
+.video_card img:hover+.wacth-now{
+    display: block;
+    
+}
+.video_card img:hover{
+    filter: brightness(50%);
+}
+.video-card4{
+    position: relative;
+}
+.video-card3 .wacth-now{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    
+    
+}
+.permanent{
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%,-50%);
 }

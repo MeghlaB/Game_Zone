@@ -74,6 +74,7 @@
     .title-section{
         text-align: center;
         padding-top: .5rem;
+        padding-right:0 ;
     }
     .title-section h3{
        
@@ -91,5 +92,17 @@
         font-size: 18px;
         padding-bottom: 0.5rem;
     }
+
+/* online-videos-responsive */
+.online_games{
+    width: 100%;
+}
+.video_card{
+    grid-template-columns: 1fr;
+}
+
+
+
+
 
 }
