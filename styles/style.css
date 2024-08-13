@@ -70,8 +70,7 @@ body{
 .banner-section{
     width:95%;
     display: flex;
-   
-    /* height: 600px; */
+    padding-bottom: 0.25rem;
     
 }
 .banner-section >.goat,
@@ -80,7 +79,7 @@ body{
 
 }
 .goat{
-    background-image: url(../images/Group\ 14.png);
+    background: url(../images/Group\ 14.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -135,7 +134,60 @@ body{
     border: none;
     background:rgba(53, 35, 155, 0.4);
 }
-.multi-image >img{
+.multi-image>img{
     width: 80%;
    padding-left: 85px;
+}
+/* We-are-game-section-styles */
+.game-section{
+    width: 100%;
+    padding-top: 5rem;
+    background-color: #e0cdd8;
+    display: flex;
+  
+    
+}
+.game-section>.man-section{
+    width: 100%;
+}
+.game-section>.title-section{
+    width: 100%;
+  
+
+}
+.man-section >img{
+    width: 100%;
+}
+/* .man-section{
+    background-image: url(../images/pngwing\ 4.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+} */
+.title-section{
+    text-align: right;
+    padding-top: 5rem;
+}
+.title-section h3{
+    position: relative;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-clip: Text;
+    color: transparent;
+    filter: drop-shadow(#8758F1);
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 0.5rem;
+}
+.title-section h5{
+    font-size: 1rem;
+    font-weight: 400;
+    color: grey;
+    padding-bottom: 0.5rem;
+}
+.title-section p{
+    font-size: 18px;
+    color: grey;
+    padding-top: 1.2rem;
 }
