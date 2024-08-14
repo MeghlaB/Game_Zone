@@ -26,6 +26,7 @@
 
     .multi-image >img{
         width:100% ;
+        transform: scale(0.8);
         justify-content: center;
         align-items: center;
         padding-left: 0%;
@@ -76,9 +77,7 @@
         padding-top: .5rem;
         padding-right:0 ;
     }
-    .title-section h3{
-       
-    }
+  
     .title-section h5{
         font-size: 16px;
     }
@@ -95,7 +94,9 @@
 
 /* online-videos-responsive */
 .online_games{
+    /* margin-top: 2rem; */
     width: 100%;
+    transform: scale(0.8);
 }
 .video_card{
     grid-template-columns: 1fr;
@@ -112,16 +113,15 @@
    padding-top: 0;
    padding-right: 0;
    padding-left: 2rem;
-   justify-content: center;
-   align-items: center;
 
 }
-.description{
-    margin: 0%;
-    padding-left: 5rem;
+.play-title h4{
+    padding-bottom: .2rem;
 }
+
 .group-image{
     width: 100%;
+    transform: scale(0.8);
 }
 .group-image>.frist-image >img{
     width: 100%;
@@ -129,6 +129,5 @@
     
 
 }
-
-
+/* .play-game-online-responsive */
 }
