@@ -129,5 +129,28 @@
     
 
 }
-/* .play-game-online-responsive */
+/* .careersresponsive */
+.careers{
+    width: 100%;
+    grid-template-columns: 1fr;
 }
+.careers-text{
+    padding: 2rem 0;
+}
+.grid{
+    /* width: 100%; */
+    padding-top: 1rem;
+    /* border: 1px solid rebeccapurple; */
+    
+}
+.careers-text p{
+    font-size: 14px;
+}
+.careers-text button{
+    width: 250px;
+    padding: 1rem 1rem;
+}
+
+}
+
+
