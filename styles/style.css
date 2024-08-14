@@ -438,7 +438,72 @@ body{
     
 
 }
-
 .hover:hover{
     border: 2px solid rgb(231, 31, 141);
+}
+/* footer */
+.footer{
+    width: 100%;
+    /* height: 450px; */
+    background-color: #0B0223;
+}
+.footer-section{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 8rem;
+}
+.footer-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-icon >img{
+    width: 10%;
+}
+.footer-icon p{
+    font-size: 3rem;
+    font-weight: 900;
+    color: whitesmoke;
+}
+.multi-text{
+    display: grid;
+    padding-top: 1.2rem;
+    gap: 30px;
+    grid-template-columns: repeat(6,1fr);
+}
+.multi-text p{
+    font-size: 18px;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.multi-icon{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 34px;
+    color: white;
+}
+.multi-text2{
+    display: grid;
+    padding-top: 2.5rem;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+   
+}
+.multi-text2 p{
+    font-size: 14px;
+    gap: 5px;
+    color: whitesmoke
+
+}
+.last-footer p{
+    padding-top: 1.8rem;
+    font-size: 16px;
+    color: grey;
+
+
 }
