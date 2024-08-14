@@ -106,6 +106,7 @@
 .play-insatanly{
     width: 100%;
     margin: 0% auto;
+    padding-top: 0;
     grid-template-columns: 1fr;
 }
 .play-title{
@@ -151,6 +152,32 @@
     padding: 1rem 1rem;
 }
 
+/* catagory-responsive */
+.catagory-child1,
+.catagory-child2,
+.catagory-child3,
+.catagory-child4,
+.catagory-child5,
+.catagory-child6,
+.catagory-child7,
+.catagory-child8,
+.catagory-child9{
+    width: 90px;
+}
+.catagory-child1>img,
+.catagory-child2>img,
+.catagory-child3>img,
+.catagory-child4>img,
+.catagory-child5>img,
+.catagory-child6>img,
+.catagory-child7>img,
+.catagory-child8>img,
+.catagory-child9>img{
+    width: 30px;
+    margin-right: 5px;
+    
+
+}
 }
 
 

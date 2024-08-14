@@ -393,8 +393,52 @@ body{
 }
 .careers-text button{
     width: 250px;
+    margin-top: 2rem;
     padding: 1.5rem 1.2rem;
     border-radius: 36px;
     font-size: 18px;
     color: rgb(231, 31, 141);
+}
+/* catagory-main-styles */
+.catagory-main{
+    width: 90%;
+    margin: 5% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+   
+}
+.catagory-child1,
+.catagory-child2,
+.catagory-child3,
+.catagory-child4,
+.catagory-child5,
+.catagory-child6,
+.catagory-child7,
+.catagory-child8,
+.catagory-child9{
+    min-width: 220px;
+    display: flex;
+    align-items: center;
+    border-radius:20px ;
+    font-size: 14px;
+}
+.catagory-child1>img,
+.catagory-child2>img,
+.catagory-child3>img,
+.catagory-child4>img,
+.catagory-child5>img,
+.catagory-child6>img,
+.catagory-child7>img,
+.catagory-child8>img,
+.catagory-child9>img{
+    width: 35px;
+    margin-right: 5px;
+    
+
+}
+
+.hover:hover{
+    border: 2px solid rgb(231, 31, 141);
 }
